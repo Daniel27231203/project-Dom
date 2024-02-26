@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.adminBlock {
+  opacity: 0;
+  height: 0;
+}
+
+a {
+  text-decoration: none;
+}
+/* Header */
+header {
+  background: url(https://www.news10.com/wp-content/uploads/sites/64/2022/07/Cat.jpg?w=2560&h=1440&crop=1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.header {
+  padding: 40px 0;
+  h1 {
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+}
+.headerBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerBlock nav {
+  margin-right: 500px;
+  a {
+    margin: 0 40px;
+    color: white;
+  }
+  a:hover {
+    color: red;
+  }
+}
+.number {
+  text-align: end;
+  h2 {
+    color: white;
+    margin-bottom: 5px;
+  }
+  p {
+    color: rgb(203, 199, 199);
+  }
+}
+/* Header */
+
+/* admin */
+
+/* section admincreate */
+#adminCreate {
+  background: url(https://image.petmd.com/files/styles/978x550/public/2023-09/how-smart-are-cats.jpg);
+  background-size: cover;
+}
+.adminCreate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 200px 0;
+  gap: 30px;
+}
+.adminCreate input {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 100px 5px 15px;
+  font-size: 20px;
+}
+.adminCreate button {
+  border: none;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.adminCreate button:hover {
+  box-shadow: 0px 1px 17px 4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 1px 17px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 17px 4px rgba(0, 0, 0, 0.75);
+  outline: 2px solid green;
+}
+/* section admincreate */
+
+/* admin */
+
+/* home */
+
+/* homeCards */
+
+.catsCards {
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.homeCards h4 {
+  margin: 50px 0;
+  border: 1px solid rgb(159, 156, 156);
+  padding: 15px 30px;
+  width: 250px;
+}
+.catsCard {
+  width: 380px;
+  height: 451px;
+  background: rgb(245, 238, 238);
+  border-radius: 15px;
+}
+.block {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-left: 15px;
+  h3 {
+    font-size: 10px;
+    color: rgb(1, 32, 22);
+  }
+  span {
+    font-size: 20px;
+  }
+}
+.catsCard img {
+  width: 380px;
+  height: 221px;
+  border-radius: 15px 15px 0 0;
+}
+.catsCard h2 {
+  margin: 20px 0;
+  margin-left: 15px;
+  font-size: 30px;
+}
+.catsCard h1 {
+  margin: 20px 15px;
+}
+.catBtn {
+  width: 380px;
+  border: none;
+  height: 80px;
+  background: rgb(147, 147, 208);
+  border-radius: 0 0 10px 10px;
+  font-size: 20px;
+}
+.delBtn {
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: 2px solid green;
+  /* margin-left: 190px; */
+  cursor: pointer;
+}
+/* homeCards */
+
+/* home */
